@@ -37,7 +37,7 @@ switch (role){
     default:
         console.log('не определен');
 }
-// тернарн оператор
+// тернарные оператор
 10>0 ? console.log('больше'): console.log('меньшы');
 const str=10>5 ? 'да': 'нет';
 console.log(str);

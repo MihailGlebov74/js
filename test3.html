@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Две колонки</title>
+  <style type="text/css">
+   #maket {
+    width: 100%; /* Ширина всей таблицы в процентах */
+    border: 10;
+    border-color: blue;
+   }
+   #maket TD {
+    vertical-align: top; /* Вертикальное выравнивание в ячейках */
+   }
+   TD#leftcol {
+    width: 200px; /* Ширина левой колонки в пикселах */
+   }
+  </style>
+ </head>
+ <body>
+  <table cellspacing="0" cellpadding="2" id="maket" border="3">
+   <tr> 
+    <td id="leftcol">Левая колонка</td><td>Правая колонка</td>
+   </tr>
+  </table>
+ </body>
+</html>
